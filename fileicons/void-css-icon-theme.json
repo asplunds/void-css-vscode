@@ -1,0 +1,14 @@
+{
+    "iconDefinitions": {
+        "_file_dark": {
+            "iconPath": "../images/logo.svg"
+        }
+    },
+    "file": "_file_dark",
+    "fileExtensions": {
+        "vcss": "_file_dark"
+    },
+    "languageIds": {
+        "vcss": "_file_dark"
+    },
+}

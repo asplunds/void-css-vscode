@@ -1,0 +1,47 @@
+{
+    "name": "void-css",
+    "displayName": "Void CSS",
+    "description": "Powerful, modern, slim, pre and JIT compiled css processor for high performance and dynamic web projects. Combine the best of static css with dybamic updates from your JavaScript.",
+    "icon": "images/logo.png",
+    "version": "0.0.1",
+    "publisher": "Jonathan Asplund",
+    "engines": {
+        "vscode": "^1.62.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "void-css",
+                "aliases": [
+                    "Void CSS",
+                    "void-css"
+                ],
+                "extensions": [
+                    ".vcss",
+                    ".void"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "iconThemes": [
+            {
+                "id": "void-css",
+                "label": "Void CSS",
+                "path": "./fileicons/void-css-icon-theme.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "void-css",
+                "scopeName": "source.vcss",
+                "path": "./syntaxes/void-css.tmLanguage.json",
+                "embeddedLanguages": {
+                    "style.css": "css"
+                }
+            }
+        ]
+    }
+}
